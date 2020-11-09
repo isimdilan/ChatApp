@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "816749983171",
+    "firebase_url": "https://konusunnn.firebaseio.com",
+    "project_id": "konusunnn",
+    "storage_bucket": "konusunnn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816749983171:android:2584187d59e805dfc9b976",
+        "android_client_info": {
+          "package_name": "com.example.konusunnn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816749983171-8hnnu59d9vq46spbbsfd03tmurp1e97f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.konusunnn",
+            "certificate_hash": "94b97b6c790af8a4dc43789c89440000f60c4918"
+          }
+        },
+        {
+          "client_id": "816749983171-9h35dbknv68lchquc0arstni4r1aldi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIQBlsOIn3GE7u4BWcsF7RZvw2T-RFe7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816749983171-9h35dbknv68lchquc0arstni4r1aldi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

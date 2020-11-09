@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aa"
+    android:orientation="vertical"
+    tools:context=".Chat_yap">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/buttonn"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_backpage"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/chatoda"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+
+            android:layout_marginTop="6dp"
+            android:gravity="center_horizontal"
+            android:text="Oda İsmi"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listviewchatyap"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/mesajgonder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chatoda">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/mesajgonder"
+            android:layout_width="335dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="11dp"
+            android:ems="10"
+            android:hint=" Mesajınız"
+            android:inputType="textPersonName"
+            android:outlineSpotShadowColor="@color/buton"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="@color/arkaplansohbet"
+            android:textColorHint="@color/arkaplansohbet"
+            android:textColorLink="@color/colorPrimary"
+            android:textCursorDrawable="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/listviewchatyap"
+            tools:ignore="UnknownId" />
+
+        <Button
+            android:id="@+id/gondersari"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_send"
+            android:textColor="@color/siyahimizz"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/listviewchatyap"
+            tools:ignore="UnknownId" />
+    </LinearLayout>
+
+</LinearLayout>

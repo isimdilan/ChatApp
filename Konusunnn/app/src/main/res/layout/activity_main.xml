@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/giris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="450dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/hosgeldiniz"
+        android:textColor="@color/siyahimizz"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="47dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textPersonName"
+        android:textColorHighlight="@color/buton"
+        android:textColorHint="@color/sari"
+        android:textColorLink="@color/koyumor"
+        android:textCursorDrawable="@color/koyumor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/sifre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="395dp"
+        android:layout_marginBottom="216dp"
+        android:ems="10"
+        android:hint="Şifre?"
+        android:inputType="textPassword"
+        android:textColorHighlight="@color/buton"
+        android:textColorHint="@color/sari"
+        android:textColorLink="@color/koyumor"
+        android:textCursorDrawable="@color/koyumor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/girisyap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/giris"
+        android:textColor="@color/siyahimizz"
+        android:textColorHighlight="@color/sari"
+        android:textColorHint="@color/koyumor"
+        android:textColorLink="@color/koyumor"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sifre" />
+
+    <TextView
+        android:id="@+id/kayitol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="53dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/Kaydol"
+        android:textColor="@color/siyahimizz"
+        android:textColorHighlight="@color/koyumor"
+        android:textColorHint="@color/sari"
+        android:textColorLink="@color/koyumor"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sifre" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="-469dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
