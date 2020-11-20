@@ -21,5 +21,5 @@ Talking Page
 
 Talking Page with talks
 
-![4](https://user-images.githubusercontent.com/72500382/98597278-d323df80-22e9-11eb-8248-46ed4f98d6ec.png)
+
 
