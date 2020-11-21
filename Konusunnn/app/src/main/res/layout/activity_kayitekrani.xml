@@ -4,19 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/arkaplan"
+    android:background="@drawable/arka"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/giris2"
+        app:srcCompat="@drawable/maingiris" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/maingiris" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/maingiris" />
+
     <TextView
-        android:id="@+id/giris"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/giris2"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="450dp"
+        android:background="@drawable/logo"
         android:fontFamily="sans-serif"
-        android:text="@string/kayit"
         android:textColor="@color/siyahimizz"
-        android:textSize="26sp"
+        android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,79 +54,162 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/mail"
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:srcCompat="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/sifre"
+        app:srcCompat="@drawable/lock" />
+
+    <TextView
+        android:id="@+id/giris"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="255dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginRight="260dp"
+        android:layout_marginBottom="450dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/kayit"
+        android:textColor="@color/siyahimizz"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/giris2" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="50dp"
         android:ems="10"
         android:hint="E-mail"
         android:inputType="textPersonName"
         android:textColorHighlight="@color/buton"
-        android:textColorHint="@color/sari"
+        android:textColorHint="@color/colorPrimaryDark"
         android:textColorLink="@color/koyumor"
         android:textCursorDrawable="@color/koyumor"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/sifre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kullanici_adi" />
 
     <EditText
         android:id="@+id/kullanici_adi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="345dp"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="50dp"
         android:ems="10"
         android:hint="Kullanıcı adı"
         android:inputType="textPersonName"
         android:textColorHighlight="@color/buton"
-        android:textColorHint="@color/sari"
+        android:textColorHint="@color/colorPrimaryDark"
         android:textColorLink="@color/koyumor"
         android:textCursorDrawable="@color/koyumor"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/mail"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
 
     <EditText
         android:id="@+id/sifre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
         android:layout_marginBottom="180dp"
         android:ems="10"
-        android:hint="Şifre?"
+        android:hint="Şifre"
         android:inputType="textPassword"
         android:textColorHighlight="@color/buton"
-        android:textColorHint="@color/sari"
+        android:textColorHint="@color/colorPrimaryDark"
         android:textColorLink="@color/koyumor"
         android:textCursorDrawable="@color/koyumor"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/kayitol"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mail" />
 
     <TextView
         android:id="@+id/kayitol"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="520dp"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/butonlaricin"
         android:fontFamily="sans-serif"
+        android:gravity="center"
         android:text="@string/Kaydol"
         android:textColor="@color/siyahimizz"
         android:textColorHighlight="@color/koyumor"
         android:textColorHint="@color/sari"
         android:textColorLink="@color/koyumor"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kayitol2"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="-469dp" />
+    <TextView
+        android:id="@+id/kayitol2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/butonlaricin"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/girisekran"
+        android:textColor="@color/siyahimizz"
+        android:textColorHighlight="@color/koyumor"
+        android:textColorHint="@color/sari"
+        android:textColorLink="@color/koyumor"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/kayitol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/kullanici_adi"
+        app:srcCompat="@drawable/pp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

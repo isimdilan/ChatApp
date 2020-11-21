@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/aa"
+    android:background="@color/arkarenkyeni"
     android:orientation="vertical"
     tools:context=".Chat_odalar">
 
@@ -29,7 +29,7 @@
             android:layout_height="45dp"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:text="Open Topics"
+            android:text="Konusulan Konular"
             android:textAlignment="center"
             android:textColor="@color/siyahimizz"
             android:textColorLink="@color/siyahimizz"
@@ -65,8 +65,9 @@
                     android:layout_width="286dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Enter The Topic Title"
+                    android:hint="Konu Basligi Giriniz"
                     android:inputType="textPersonName"
+                    android:text=" "
                     android:textColor="@color/siyahimizz"
                     android:textColorHighlight="@color/siyahimizz"
                     android:textColorHint="@color/siyahimizz"
@@ -75,13 +76,13 @@
 
                 <Button
                     android:id="@+id/sohbetodasiekle"
-                    android:layout_width="122dp"
+                    android:layout_width="110dp"
                     android:layout_height="30dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/navigationbar_border3"
+                    android:background="@drawable/butonlaricin"
 
 
-                    android:text="Add The Topic"
+                    android:text="Konu Ekle"
                     android:textColor="@color/colorPrimary"
                     android:textColorHighlight="@color/koyumor"
                     android:textColorHint="@color/colorPrimary"
@@ -93,20 +94,14 @@
             <ListView
                 android:id="@+id/listview"
                 android:layout_width="match_parent"
-                android:layout_height="575dp"
+                android:layout_height="900dp"
                 android:clickable="false"
                 android:contextClickable="false"
+                android:descendantFocusability="blocksDescendants"
                 android:divider="@null"
                 android:dividerHeight="0dp"
-                android:descendantFocusability="blocksDescendants"
                 android:focusable="false"
                 android:focusableInTouchMode="false" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="415dp"
-                android:layout_height="200dp"
-                app:srcCompat="@drawable/sid" />
 
         </LinearLayout>
     </ScrollView>

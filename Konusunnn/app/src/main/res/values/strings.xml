@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Konusunnn</string>
     <string name="hosgeldiniz">HOŞGELDİNİZ LOO</string>
-    <string name="giris">GİRİŞ YAP!</string>
-    <string name="Kaydol">KAYDOL!!!</string>
-    <string name="kayit">KAYIT EKRANINI HOŞGELDİNİZ...</string>
+    <string name="giris">GİRİŞ YAP</string>
+    <string name="Kaydol">KAYDOL</string>
+    <string name="kayit">KAYIT EKRANI</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -11,4 +11,5 @@
     <string name="mesajlar">Mesajlar</string>
     <string name="arkadaslar">Arkadaslar</string>
     <string name="charodaisim">Chat Odaları</string>
+    <string name="girisekran">Giriş Ekranı</string>
 </resources>

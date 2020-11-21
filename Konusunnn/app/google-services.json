@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "816749983171",
-    "firebase_url": "https://konusunnn.firebaseio.com",
-    "project_id": "konusunnn",
-    "storage_bucket": "konusunnn.appspot.com"
+    "project_number": "422363703507",
+    "firebase_url": "https://lookonusunnn-ff484.firebaseio.com",
+    "project_id": "lookonusunnn-ff484",
+    "storage_bucket": "lookonusunnn-ff484.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:816749983171:android:2584187d59e805dfc9b976",
+        "mobilesdk_app_id": "1:422363703507:android:8a2044dfcf381fe6bccc26",
         "android_client_info": {
-          "package_name": "com.example.konusunnn"
+          "package_name": "com.diloo.Lookonusunnn"
         }
       },
       "oauth_client": [
         {
-          "client_id": "816749983171-8hnnu59d9vq46spbbsfd03tmurp1e97f.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.konusunnn",
-            "certificate_hash": "94b97b6c790af8a4dc43789c89440000f60c4918"
-          }
-        },
-        {
-          "client_id": "816749983171-9h35dbknv68lchquc0arstni4r1aldi4.apps.googleusercontent.com",
+          "client_id": "422363703507-jb1pq91votrd3bffn96leoekkorp5484.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDIQBlsOIn3GE7u4BWcsF7RZvw2T-RFe7o"
+          "current_key": "AIzaSyDooqak-RNDYSp5HyLB_gWkLz-_JfEeOfY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "816749983171-9h35dbknv68lchquc0arstni4r1aldi4.apps.googleusercontent.com",
+              "client_id": "422363703507-jb1pq91votrd3bffn96leoekkorp5484.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
