@@ -1,4 +1,4 @@
-# LOO
+# LOOChatApp
  Discussion APP
  Create a topic and start talking
  
