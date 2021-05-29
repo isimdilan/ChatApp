@@ -4,8 +4,6 @@
  
  It is a chat application written in the java programming language. Developed with firebase.
 
-You can login with your username, e-mail address and password. 
-
 You can add the topic you want to talk or discuss and start talking / discussing
 
 ![loo2](https://user-images.githubusercontent.com/72500382/99859103-1b6fb700-2ba0-11eb-80b3-dcdbd60b7649.png)
